@@ -11,7 +11,7 @@
 ## Description <a name="description"></a>
 An in-browser day planner using third-party APIs like Bootstrap, JQuery, and Moment.js to save and update a daily task list.
 
-<img src="./screenshots/day-planner.PNG"> 
+<img src="./screenshot/day-planner.PNG"> 
 
 ## The Challenge <a name="challenge"></a>
 Create a daily planner to manage time effectively
