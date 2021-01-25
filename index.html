@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3 text-center">Work Day Scheduler</h1>
+      <p class="lead text-center">A simple calendar app for scheduling your work day</p>
+      <div class="day-container container w-25 bg-primary d-flex justify-content-center align-items-center">
+        <p id="currentDay" class="lead mb-0 text-light"></p>
+      </div>
+      <button id="clear-tasks" class="btn btn-outline-danger w-25 m-3">Clear All Tasks</button>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <div data-time="9" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">9am</div>
+
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="10" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">10am</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="11" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">11am</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="12" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">12pm</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="13" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">1pm</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="14" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">2pm</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="15" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">3pm</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="16" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">4pm</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <div data-time="17" class="row time-block">
+        <div class="col-1 hour d-flex justify-content-center align-items-center">5pm</div>
+        
+        <textarea class="col-10 description"></textarea>
+        
+        <button class="btn saveBtn col-1 d-flex justify-content-center align-items-center">
+            <i class="far fa-save"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
